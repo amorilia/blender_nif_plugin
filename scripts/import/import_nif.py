@@ -3749,7 +3749,8 @@ class NifImport(NifImportExport):
             # save priority for future reference
             # (priorities will be stored into the name of a NULL constraint on
             # bones, see import_armature function)
-            self.bone_priorities[nodename] = controlledblock.priority
+            if self.IMPORT_BONEPRIORITIES:
+                self.bone_priorities[nodename] = controlledblock.priority
 
         # DEBUG: save the file for manual inspection
         #niffile = open("C:\\test.nif", "wb")
