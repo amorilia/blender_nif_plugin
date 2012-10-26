@@ -1,5 +1,5 @@
-Version 2.5.9 (in development)
-==============================
+Version 2.5.9 (26 Oct 2012)
+===========================
 
 * Import normals if present, for the Blender True Normals patch (requested
   by kormgar).
