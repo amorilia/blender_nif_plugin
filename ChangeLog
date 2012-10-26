@@ -4,6 +4,8 @@ Version 2.5.9 (in development)
 * Import normals if present, for the Blender True Normals patch (requested
   by kormgar).
 
+* New import option to disable bone priority import (requested by Koniption).
+
 Version 2.5.8 (30 Oct 2011)
 ===========================
 
